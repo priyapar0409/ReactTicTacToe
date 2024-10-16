@@ -1,9 +1,12 @@
 {
+  "homeepage":"http://priyapar0409.github.io/ReactTicTacToe",
   "name": "react.dev",
   "version": "0.0.0",
   "main": "/src/index.js",
   "scripts": {
     "start": "react-scripts start",
+    "predeploy":"npm run build",
+    "deploy":"gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
